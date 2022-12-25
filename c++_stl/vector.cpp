@@ -37,7 +37,7 @@ int main()
     
     // erase method
     v.erase(v.begin()+1); // erase one element not range
-    v.erase(v.begin(), v.end()); // erase a range of elements, start inclusive and end not inclusive
+    v.erase(v.begin(), v.end()+1); // erase a range of elements, start inclusive and end not inclusive
 
 
     //insert method
