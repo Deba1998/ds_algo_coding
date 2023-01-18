@@ -13,7 +13,7 @@ int main()
     q.push(3);  //{1,2,3}
     q.emplace(5); //{1,2,3,5}
     cout<<q.back()<<endl;
-    q.pop(); //pop fron the front
+    q.pop(); //pop from the front
     cout<<q.back()<<endl;
     cout<<q.front()<<endl;
     cout<<q.size()<<endl;
